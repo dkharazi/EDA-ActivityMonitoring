@@ -65,6 +65,8 @@ plot(meanSteps$interval, meanSteps$steps,
      main = "Average Steps", xlab = "Time Interval (min.)", ylab = "Steps")
 ```
 
+![plot of chunk 3a](plot1.png)
+
 Now, we will determine which 5-minute interval contains the maximum number of average steps.
 
 ```{r 3b}
@@ -103,6 +105,8 @@ dailySteps <- activity %>%
 hist(dailySteps$steps, col = "blue", main = "Steps Taken per Day", xlab = "Steps")
 ```
 
+![plot of chunk 4c](hist2.png)
+
 ## Are there differences in activity patterns between weekdays and weekends?
 
 For the final part of our analysis, we will use the dataset with the filled-in missing values, and we will create a new factor variable in the dataset with two levels – "weekday" and "weekend" - indicating whether a given date is a weekday or weekend day.
@@ -128,3 +132,4 @@ ggplot(meanSteps, aes(interval, steps)) +
              labeller = as_labeller(c("weekday" = "Weekday", "weekend" = "Weekend"))) 
 ```
 
+![plot of chunk 5b](panel1.png)

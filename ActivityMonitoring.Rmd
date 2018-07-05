@@ -5,8 +5,6 @@ date: "6/29/2018"
 output: pdf_document
 ---
 
-# Activity Monitoring
-
 ## Loading and preprocessing the data
 
 First, we will load some libraries that will be useful to us in our exploratory analysis.

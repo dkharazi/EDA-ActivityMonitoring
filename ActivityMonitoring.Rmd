@@ -2,7 +2,7 @@
 title: "Activity Monitoring"
 author: "Darius Kharazi"
 date: "6/29/2018"
-output: pdf_document
+output: rmarkdown::github_document
 ---
 
 ## Loading and preprocessing the data

@@ -7,15 +7,17 @@ output: pdf_document
 
 # Activity Monitoring
 
+## Loading and preprocessing the data
+
+First, we will load some libraries that will be useful to us in our exploratory analysis.
+
 ```{r setup, include=FALSE}
 library(knitr)
 library(dplyr)
 library(ggplot2)
 ```
 
-## Loading and preprocessing the data
-
-First, we will load the data and process the data into a format suitable for our analysis.
+And, we will load the data and process the data into a format suitable for our analysis.
 
 ```{r 1a}
 ## Load the raw data

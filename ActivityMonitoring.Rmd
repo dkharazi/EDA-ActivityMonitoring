@@ -47,8 +47,8 @@ And, we will calculate the mean and median of the total number of steps taken pe
 
 ```{r 2c}
 ## Calculate the mean and median
-c(mean = mean(dailySteps$steps, na.rm = TRUE),
-  median = median(dailySteps$steps, na.rm = TRUE))
+print(c(mean = mean(dailySteps$steps, na.rm = TRUE),
+        median = median(dailySteps$steps, na.rm = TRUE)))
 ```
 
 ## What is the average daily activity pattern

@@ -41,7 +41,9 @@ Next, we will create a histogram of the total number of steps taken each day.
 hist(dailySteps$steps, col = "blue", main = "Steps Taken per Day", xlab = "Steps")
 ```
 
-![plot of chunk 2b](hist1.png)
+<p align="center">
+  <img width="400" height="400" src="/graphics/hist1.png">
+</p>
 
 And, we will calculate the mean and median of the total number of steps taken per day.
 
@@ -67,7 +69,9 @@ plot(meanSteps$interval, meanSteps$steps,
      main = "Average Steps", xlab = "Time Interval (min.)", ylab = "Steps")
 ```
 
-![plot of chunk 3a](plot1.png)
+<p align="center">
+  <img width="400" height="400" src="/graphics/hist2.png">
+</p>
 
 Now, we will determine which 5-minute interval contains the maximum number of average steps.
 
@@ -107,7 +111,9 @@ dailySteps <- activity %>%
 hist(dailySteps$steps, col = "blue", main = "Steps Taken per Day", xlab = "Steps")
 ```
 
-![plot of chunk 4c](hist2.png)
+<p align="center">
+  <img width="400" height="400" src="/graphics/plot1.png">
+</p>
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
@@ -134,4 +140,6 @@ ggplot(meanSteps, aes(interval, steps)) +
              labeller = as_labeller(c("weekday" = "Weekday", "weekend" = "Weekend"))) 
 ```
 
-![plot of chunk 5b](panel1.png)
+<p align="center">
+  <img width="400" height="400" src="/graphics/panel1.png">
+</p>

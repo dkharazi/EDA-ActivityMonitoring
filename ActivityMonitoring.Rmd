@@ -1,9 +1,11 @@
 ---
-title: "Course Project 1"
+title: "Activity Monitoring"
 author: "Darius Kharazi"
 date: "6/29/2018"
 output: pdf_document
 ---
+
+# Activity Monitoring
 
 ```{r setup, include=FALSE}
 library(knitr)
